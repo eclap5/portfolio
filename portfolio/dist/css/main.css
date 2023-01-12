@@ -5,6 +5,10 @@
   top: 35px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
+  .menu-btn:hover {
+    transition: all 0.5s ease-out; }
+    .menu-btn:hover .btn-line {
+      background: #eece1a; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
@@ -161,7 +165,7 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(2, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -174,8 +178,6 @@ main {
     grid-area: job1; }
   .about-info .job-2 {
     grid-area: job2; }
-  .about-info .job-3 {
-    grid-area: job3; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
