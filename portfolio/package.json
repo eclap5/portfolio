@@ -1,21 +1,21 @@
 {
-  "name": "showtimeoasis",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Find new series to watch",
+  "description": "portfolio",
   "main": "index.js",
-  "homepage": "https://eclap5.github.io/ShowtimeOasis",
+  "homepage": "https://eclap5.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eclap5/ShowtimeOasis"
+    "url": "git+https://github.com/eclap5/portfolio"
   },
   "author": "Aleksi Haapalainen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eclap5/ShowtimeOasis/issues"
+    "url": "https://github.com/eclap5/portfolio/issues"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
